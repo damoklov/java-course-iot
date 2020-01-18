@@ -39,7 +39,7 @@ public class Conference {
     }
     @Override
     public String toString() {
-        return Conference.class + "{" +
+        return this.getClass().getSimpleName() + "{" +
                 "name: " + this.conferenceName + ", " +
                 "city: " + this.conferenceCity + ", " +
                 "attendees: " + this.numberOfAttendees + ", " +
