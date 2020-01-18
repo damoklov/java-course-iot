@@ -10,11 +10,11 @@ public class Conference {
     private static final double DEFAULT_PRICE = 0.0;
     private static final boolean DEFAULT_WORKSHOPS = false;
 
-    public static int conferenceNumber;
-    public String conferenceName;
-    public String conferenceCity;
-    public int numberOfAttendees;
-    public double ticketPrice;
+    private static int conferenceNumber;
+    private String conferenceName;
+    private String conferenceCity;
+    private int numberOfAttendees;
+    private double ticketPrice;
     private String conferenceTopic;
     private String conferenceOrganizer;
     protected boolean workshopsAvailable;
